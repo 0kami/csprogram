@@ -1,6 +1,7 @@
 /**
  * https://www.nowcoder.com/practice/d6bd75dbb36e410995f8673a6a2e2229?tpId=40&tqId=21479&tPage=1&rp=1&ru=/ta/kaoyan&qru=/ta/kaoyan/question-ranking
  * 运行时间：4ms 占用内存：440k
+ * 最小生成树 kruskal
  */
 #include <iostream>
 #include <algorithm>
