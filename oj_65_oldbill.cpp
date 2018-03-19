@@ -20,7 +20,6 @@ int main(){
 				}
 			}
 		if (flag)cout << 0 << endl;
-				
 	}
 	return 0;
 }
