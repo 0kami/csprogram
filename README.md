@@ -23,12 +23,12 @@
         冒泡 n^2 注意第一个for循环到n <br>
                     第二个for循环到n-1-i <br>
                     前后交换<br>
-        快排 log2n 填坑法 左i右j<br>
+        快排 n*log2n 填坑法 左i右j<br> 具体看非递归快排
         ```
-                while(i<j&&d[i]<pos)i++;
-                swap;
                 while(i<j&&d[j]>pos)j--;
-                swap;
+                d[i]=d[j];
+                while(i<j&&d[i]<pos)i++;
+                d[j]=d[i];
         ```
             递归分割<br>
 
