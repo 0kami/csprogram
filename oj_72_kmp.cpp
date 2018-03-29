@@ -26,7 +26,8 @@ void getNext(int *next,string a){
 	for (int i = 3; i <= next[0]; i++){
 		int k = next[i - 1];
 		while (true){
-			if (a[i - 1] == a[k]){
+			if (a[i - 2] == a[k-1]){//因为这里a从0开始所以要各减去一位
+									//如果a从1开始 则 a[i-1]==a[k]
 				next[i] = k + 1;
 				break;
 			}
